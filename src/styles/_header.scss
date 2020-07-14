@@ -1,0 +1,29 @@
+._header {
+    background: #ff3c00;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+
+    .headerLogo{
+        cursor: pointer;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-around;
+
+        li{
+            padding: 10px;
+            cursor: pointer;
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
