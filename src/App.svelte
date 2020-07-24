@@ -5,6 +5,8 @@
 		<Reactivity/>
 		<Propss {...pkg} />
 		<Logic></Logic>
+		<Binding></Binding>
+		<LifeCycle></LifeCycle>
 	</div>
 
 </div>
@@ -15,6 +17,8 @@
 	import HeaderHome from './components/HeaderHome.svelte'
 	import Propss from './pages/props.svelte'
 	import Logic from './pages/logic.svelte'
+	import Binding from './pages/binding.svelte'
+	import LifeCycle from './pages/lifecycle.svelte'
 
 	const pkg = {
 		answer: 'yes',

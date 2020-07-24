@@ -24,10 +24,16 @@
         {#each cats as {name}, i}
             <li>{i+1}. {name}</li>
         {/each}
+
+        <li></li>
+        <li><b>DOM Event Forwadding</b></li>
+        <ButtonDom on:click={handleDOM}></ButtonDom>
     </ul>
 </div>
 
 <script>
+    import ButtonDom from './ButtonDom.svelte'
+
     let user = {login:false};
 
     let x = 1;
@@ -46,6 +52,10 @@
 
     function toggle(){
         user.login = !user.login;
+    }
+
+    function handleDOM(){
+        alert('Hello This Is DOM Event Forwarding')
     }
 </script>
 
