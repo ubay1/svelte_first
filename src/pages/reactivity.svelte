@@ -56,5 +56,6 @@
 </script>
 
 <style type="text/scss">
-    @import '../styles/basic.scss';
+	@import '../styles/basic.scss';
+	@import '../styles/global.scss';
 </style>

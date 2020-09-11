@@ -48,4 +48,5 @@ function subscribe() {
 
 <style type="text/scss">
     @import '../styles/binding.scss';
+    @import '../styles/global.scss';
 </style>

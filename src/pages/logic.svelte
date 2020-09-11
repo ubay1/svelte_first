@@ -61,4 +61,5 @@
 
 <style type="text/scss">
     @import '../styles/logic.scss';
+    @import '../styles/global.scss';
 </style>

@@ -20,4 +20,5 @@
 
 <style type="text/scss">
     @import '../styles/props.scss';
+    @import '../styles/global.scss';
 </style>

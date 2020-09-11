@@ -7,6 +7,7 @@
 		<Logic></Logic>
 		<Binding></Binding>
 		<LifeCycle></LifeCycle>
+		<Store></Store>
 	</div>
 
 </div>
@@ -19,6 +20,7 @@
 	import Logic from './pages/logic.svelte'
 	import Binding from './pages/binding.svelte'
 	import LifeCycle from './pages/lifecycle.svelte'
+	import Store from './pages/store.svelte'
 
 	const pkg = {
 		answer: 'yes',
